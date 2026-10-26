@@ -105,6 +105,8 @@ Coursework completed at APU, separate from the individual final-year project abo
 | Malaysian license plate recognition | Image Processing, Computer Vision and Pattern Recognition · Team project | Private repository |
 | Satellite–ground station communication simulation | Real-Time System · Team project | Private repository |
 
+In IPPR, I shared preprocessing and plate detection with a teammate, developed the OCR code, and handled overall file configuration and report editing. GUI development, system integration, and experimental reporting were handled by teammates. RTS contains my Ground Control Station (GCS) part of the team simulation.
+
 </details>
 
 ## Contact

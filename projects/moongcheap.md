@@ -30,3 +30,7 @@ Demand clustering, seller matching, and seller analytics were primarily owned by
 Model-generated candidates were checked against the taxonomy and source evidence, with human review kept as a separate step. Labeling applied clear rules first and used a model selectively for unresolved requests.
 
 Historical comparisons, current persistence policies, and deployment checks are different records. Scores from earlier experiments are not presented as the accuracy of later code. The scope of submitted deliverables and remaining improvements follows the [current baseline documentation](https://github.com/V-MoongCheap/MoongCheap-AI/blob/develop/docs/DOCUMENT_STATUS.md).
+
+## Supporting Repository
+
+The private [environment repository](https://github.com/Skullking2520/moongcheap-ai-environment) contains dependency lists, setup scripts, and runtime checks used by the team. It is a shared setup resource; project source, data, and model weights are maintained separately.
