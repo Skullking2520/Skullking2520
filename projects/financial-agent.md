@@ -1,26 +1,26 @@
-# 현준수 담당 범위 · 금융 AI 에이전트
+# My Contributions · Financial Agent Testbed
 
-[프로필로 돌아가기](../README.md) · [원본 팀 저장소](https://github.com/siliincer/kdt-ai-2-hands-on-experience/tree/main)
+[Back to profile](../README.md) · [Team repository](https://github.com/siliincer/kdt-ai-2-hands-on-experience/tree/main)
 
-kt cloud TECH UP 생성형 AI 과정의 팀 프로젝트입니다. 실제 금융망 대신 가상 자금과 모의 금융 서비스를 사용하는 검증 환경을 만들었습니다.
+A team project in the kt cloud TECH UP generative AI program. We built an evaluation environment using simulated funds and mock financial services.
 
-## 담당한 영역
+## My Work
 
-| 영역 | 작업 |
+| Area | Contribution |
 | --- | --- |
-| 배포·연결 | Docker Compose, AWS EC2 시연 구성, RDS·Nginx 관련 연결 문제 대응 |
-| 개발 검증 | GitHub Actions와 보안 검사, 배포 환경 검증 관련 작업 |
-| 레드팀 | 로컬 Agent Testbed를 대상으로 적응형 공격 생성·판정·보고 흐름 구현·보완 |
+| Deployment & connectivity | Docker Compose and AWS EC2 demo setup; troubleshooting RDS and Nginx connectivity |
+| Development checks | GitHub Actions, security checks, and deployment environment validation |
+| Red teaming | Implemented and refined adaptive attack generation, judgment, and reporting against the local Agent Testbed |
 
-개인 기여는 배포·검증 영역에 해당하며, 팀이 구현한 금융 기능과 연결해 작업했습니다.
+My contributions centered on deployment and evaluation, integrated with the financial features implemented by the team.
 
-## 기술 작업을 보는 위치
+## Explore the Technical Work
 
-- [레드팀 실행·판정 구조](https://github.com/siliincer/kdt-ai-2-hands-on-experience/blob/main/security/redteam/README.md)
-- [검증 범위](https://github.com/siliincer/kdt-ai-2-hands-on-experience/blob/main/security/redteam/WORKFLOW_COVERAGE.md)
-- [AWS 최종 시연 구조](https://github.com/siliincer/kdt-ai-2-hands-on-experience/blob/main/docs/aws-ec2-demo-deploy.md)
-- [최종 배포·연결·보안 인계 기록](https://github.com/siliincer/kdt-ai-2-hands-on-experience/blob/main/docs/devsecops-handoff.md)
+- [Red-team execution and judgment](https://github.com/siliincer/kdt-ai-2-hands-on-experience/blob/main/security/redteam/README.md)
+- [Evaluation coverage](https://github.com/siliincer/kdt-ai-2-hands-on-experience/blob/main/security/redteam/WORKFLOW_COVERAGE.md)
+- [AWS demo deployment](https://github.com/siliincer/kdt-ai-2-hands-on-experience/blob/main/docs/aws-ec2-demo-deploy.md)
+- [Deployment, connectivity, and security handoff](https://github.com/siliincer/kdt-ai-2-hands-on-experience/blob/main/docs/devsecops-handoff.md)
 
-## 검증 결과를 해석하는 기준
+## Interpreting the Results
 
-레드팀 결과는 로컬 가상 자금·Agent Testbed 범위의 검증입니다. 테스트 실패가 곧 취약점 하나를 의미하지는 않으며, 호출 계약 불일치와 실제 보안 경계 위반을 나눠 봅니다. 최종 시연의 연결 확인과 장기 운영 안정성도 별개입니다.
+Red-team findings are limited to the local testbed and simulated funds. A failed test does not necessarily represent a distinct vulnerability: invocation contract mismatches are considered separately from security boundary violations. A working demo connection also does not establish long-term operational reliability.

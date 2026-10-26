@@ -1,112 +1,116 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg" />
-  <img src="assets/banner-light.svg" alt="현준수 · Applied AI · LLM" width="100%" />
+  <img src="assets/banner-light.svg" alt="Junsoo Hyun · Applied AI · LLM" width="100%" />
 </picture>
 
-<h2 align="center">AI·LLM 엔지니어를 준비하는 현준수입니다.</h2>
+<h2 align="center">Hi, I'm Junsoo — an aspiring AI & LLM engineer.</h2>
 
 <p align="center">
-  <a href="#대표-프로젝트">대표 프로젝트</a> ·
-  <a href="#프로젝트에서-사용한-기술">사용 기술</a> ·
-  <a href="#경험과-교육">경험과 교육</a> ·
-  <a href="#연락처">연락처</a>
+  <a href="#selected-projects">Projects</a> ·
+  <a href="#tools-used-in-projects">Tech Stack</a> ·
+  <a href="#experience--education">Experience</a> ·
+  <a href="#contact">Contact</a>
 </p>
 
-모델 실험과 데이터 구성, 평가 결과를 실제 서비스에 연결하는 개발에 관심이 있습니다. 개인 졸업 프로젝트와 인턴 경험을 쌓았으며, 팀 프로젝트에서는 **서브 PM·AI 파트장**으로 개발 일정과 협업 방향도 조율했습니다.
+I'm interested in turning model experiments, data pipelines, and evaluation into useful applications. My experience spans an individual final-year project, data automation during an internship, and team projects where I contributed to model development and coordinated delivery as a **deputy project manager** and **AI team lead**.
 
-## 대표 프로젝트
+## Selected Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<img src="assets/icon-moongcheap.svg" alt="뭉치 AI" width="48" height="48" />
-<h3>뭉치 AI</h3>
-<p><strong>부트캠프 · 통합 팀 프로젝트</strong></p>
-<p>자연어 수요를 구조화하고 수요 통합·판매자 매칭으로 연결하는 서비스의 AI 파트입니다.</p>
-<p><strong>내 역할</strong><br />AI 파트장 · 일정과 타 파트 협업 조율<br />데이터·Facet·자연어 수요 라벨링</p>
-<p><a href="projects/moongcheap.md">개인 담당 범위</a> · <a href="https://github.com/V-MoongCheap/MoongCheap-AI/tree/develop">팀 저장소</a></p>
+<img src="assets/icon-moongcheap.svg" alt="MoongCheap AI" width="48" height="48" />
+<h3>MoongCheap AI</h3>
+<p><strong>Bootcamp · Team Capstone</strong></p>
+<p>Structures natural-language purchase requests for demand aggregation and seller matching.</p>
+<p><strong>My contribution</strong><br />AI team lead · scheduling and cross-team coordination<br />Data preparation, facet taxonomy, and demand labeling</p>
+<p><a href="projects/moongcheap.md">My contributions</a> · <a href="https://github.com/V-MoongCheap/MoongCheap-AI/tree/develop">Team repository</a></p>
 </td>
 <td width="50%" valign="top">
-<img src="assets/icon-career.svg" alt="개인 졸업 프로젝트" width="48" height="48" />
-<h3>AI 진로 추천 서비스</h3>
-<p><strong>APU · 개인 졸업 프로젝트</strong></p>
-<p>사용자의 경험과 역량을 ESCO 직업·전공 정보에 연결하는 추천 서비스입니다.</p>
-<p><strong>내 역할</strong><br />역량 추출 학습 실험·표준 역량 연결<br />추천 API와 웹 화면 구성</p>
-<p><a href="https://github.com/Skullking2520/FYP">프로젝트 저장소</a> · <a href="https://github.com/Skullking2520/FYP/blob/main/Model/Train.ipynb">학습 실험</a></p>
+<img src="assets/icon-career.svg" alt="Career Recommendation" width="48" height="48" />
+<h3>AI Career Recommendation</h3>
+<p><strong>APU · Individual Final-Year Project</strong></p>
+<p>Connects a user's experience and skills with ESCO occupations and academic majors.</p>
+<p><strong>My contribution</strong><br />Skill extraction experiments and taxonomy mapping<br />Recommendation APIs and web interface</p>
+<p><a href="https://github.com/Skullking2520/FYP">Repository</a> · <a href="https://github.com/Skullking2520/FYP/blob/main/Model/Train.ipynb">Training experiments</a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <img src="assets/icon-newbiz.svg" alt="NewBiz Shield" width="48" height="48" />
 <h3>NewBiz Shield</h3>
-<p><strong>부트캠프 · 팀 프로젝트</strong></p>
-<p>문자·URL·이미지의 스미싱 위험과 판단 근거를 제공하는 AI 서비스입니다.</p>
-<p><strong>내 역할</strong><br />서브 PM · 모델 개발<br />개발 일정 관리와 의견 조율</p>
-<p><a href="projects/newbiz-shield.md">개인 담당 범위</a> · <a href="https://github.com/Skullking2520/kdt-ai-2-team3-advanced">팀 저장소</a></p>
+<p><strong>Bootcamp · Team Project</strong></p>
+<p>A team-built service for detecting smishing risks in messages, URLs, and images, with supporting explanations.</p>
+<p><strong>My contribution</strong><br />Deputy project manager · model development<br />Development scheduling and alignment across teammates</p>
+<p><a href="projects/newbiz-shield.md">My contributions</a> · <a href="https://github.com/Skullking2520/kdt-ai-2-team3-advanced">Team repository</a></p>
 </td>
 <td width="50%" valign="top">
-<img src="assets/icon-financial.svg" alt="금융 AI 에이전트" width="48" height="48" />
-<h3>금융 AI 에이전트 검증 환경</h3>
-<p><strong>부트캠프 · 팀 프로젝트</strong></p>
-<p>가상 자금으로 금융 요청과 승인 흐름, 에이전트의 보안 경계를 검증하는 환경입니다.</p>
-<p><strong>내 역할</strong><br />DevSecOps · AWS 시연 환경<br />로컬 레드팀 검증 구현·보완</p>
-<p><a href="projects/financial-agent.md">개인 담당 범위</a> · <a href="https://github.com/siliincer/kdt-ai-2-hands-on-experience">팀 저장소</a></p>
+<img src="assets/icon-financial.svg" alt="Financial Agent Testbed" width="48" height="48" />
+<h3>Financial Agent Testbed</h3>
+<p><strong>Bootcamp · Team Project</strong></p>
+<p>Tests financial requests, approval flows, and agent security boundaries using simulated funds.</p>
+<p><strong>My contribution</strong><br />DevSecOps · AWS demo infrastructure<br />Local adaptive red-team evaluation</p>
+<p><a href="projects/financial-agent.md">My contributions</a> · <a href="https://github.com/siliincer/kdt-ai-2-hands-on-experience">Team repository</a></p>
 </td>
 </tr>
 </table>
 
-팀 프로젝트의 전체 기능은 원본 팀 저장소에, 개인 담당 범위는 이 프로필의 별도 설명에 정리했습니다.
+Contribution pages describe my work; team repositories document the complete products and our shared work.
 
-## 프로젝트에서 사용한 기술
+## Tools Used in Projects
 
-#### AI·모델
+#### AI & Models
 
 <p><img src="assets/badge-python.svg" alt="Python" height="32" /> <img src="assets/badge-pytorch.svg" alt="PyTorch" height="32" /> <img src="assets/badge-transformers.svg" alt="Transformers" height="32" /> <img src="assets/badge-qlora.svg" alt="LoRA · QLoRA" height="32" /></p>
 
-#### 서비스·데이터
+#### Services & Data
 
 <p><img src="assets/badge-fastapi.svg" alt="FastAPI" height="32" /> <img src="assets/badge-postgresql.svg" alt="PostgreSQL" height="32" /> <img src="assets/badge-mysql.svg" alt="MySQL" height="32" /> <img src="assets/badge-selenium.svg" alt="Selenium" height="32" /></p>
 
-#### 개발·배포
+#### Development & Deployment
 
 <p><img src="assets/badge-docker.svg" alt="Docker" height="32" /> <img src="assets/badge-github-actions.svg" alt="GitHub Actions" height="32" /> <img src="assets/badge-aws.svg" alt="AWS" height="32" /> <img src="assets/badge-git.svg" alt="Git" height="32" /></p>
 
-## 경험과 교육
+## Experience & Education
 
-| 구분 | 경험 | 기간 |
+| Type | Experience | Period |
 | --- | --- | --- |
-| 인턴 | **Seeka Technology** · 소프트웨어 개발 · 원격근무 | 2025.01–2025.05 |
-| 교육 | **kt cloud TECH UP 2기** · 생성형 AI 과정 수료 | 2026.03–2026.10 |
-| 학력 | **APU** · Computer Science 졸업 | 2021.06–2026.07 |
+| Internship | **Seeka Technology** · Software Development · Remote | Jan–May 2025 |
+| Training | **kt cloud TECH UP, Cohort 2** · Generative AI · Completed | Mar–Oct 2026 |
+| Education | **Asia Pacific University of Technology & Innovation (APU)** · Computer Science · Graduated | Jun 2021–Jul 2026 |
 
 <details>
-<summary><strong>인턴 업무와 관련 코드 보기</strong></summary>
+<summary><strong>Internship — data collection and automation</strong></summary>
 
-채용·직업·전문직 정보를 수집하고, 수집한 직무 정보에서 역량과 직무 수준을 추출·분류하는 업무를 수행했습니다.
+Collected job, occupation, and registered practitioner information, and worked on extracting skills and classifying skill and job levels from job descriptions.
 
-| 업무 | 관련 저장소 |
+| Work | Related repositories |
 | --- | --- |
-| 채용 공고 수집 | [SEEK](https://github.com/Skullking2520/seek_action) · [Jora](https://github.com/Skullking2520/jora_scrapping) |
-| 직업·채용 정보 수집과 결합 | [YourCareer](https://github.com/Skullking2520/yourcareer-au-scrapping) |
-| 등록 전문직 정보 수집 | [PractitionerSearch](https://github.com/Skullking2520/PractitionerSearch) |
-| 직무 역량 추출·수준 분류 | [Skillls_extract](https://github.com/Skullking2520/Skillls_extract) |
+| Job posting collection | [SEEK](https://github.com/Skullking2520/seek_action) · [Jora](https://github.com/Skullking2520/jora_scrapping) |
+| Occupation and vacancy collection and integration | [YourCareer](https://github.com/Skullking2520/yourcareer-au-scrapping) |
+| Registered practitioner information collection | [PractitionerSearch](https://github.com/Skullking2520/PractitionerSearch) |
+| Skill extraction and level classification | [Skillls_extract](https://github.com/Skullking2520/Skillls_extract) |
 
 </details>
 
 <details>
-<summary><strong>학교 수업 과제 보기</strong></summary>
+<summary><strong>University coursework — systems, vision, and software</strong></summary>
 
-Asia Pacific University of Technology & Innovation 재학 중 수행한 수업 과제입니다.
+Coursework completed at APU, separate from the individual final-year project above.
 
-- [수업 과제 모음](https://github.com/Skullking2520/JunsooHyun_Portfolio): C++ 이메일 관리, Java 생산라인 시뮬레이션, 어셈블리 블랙잭, 영상 처리, Linux 서버 구성
-- [블록체인 수업 팀 과제](https://github.com/Skullking2520/BCD): 게임 아이템 거래 웹앱과 스마트 계약
+| Project | Context | Code |
+| --- | --- | --- |
+| C++ email management, Java factory simulation, assembly blackjack, image processing, and Linux server setup | Coursework collection | [Browse coursework](https://github.com/Skullking2520/JunsooHyun_Portfolio) |
+| Game item marketplace and smart contracts | Blockchain course · Team project | [BCD](https://github.com/Skullking2520/BCD) |
+| Malaysian license plate recognition | Image Processing, Computer Vision and Pattern Recognition · Team project | Private repository |
+| Satellite–ground station communication simulation | Real-Time System · Team project | Private repository |
 
 </details>
 
-## 연락처
+## Contact
 
-[이메일 보내기](mailto:hyunjunsoo@naver.com) · [프로젝트별 역할 보기](projects/)
+[Email me](mailto:hyunjunsoo@naver.com) · [Project contributions](projects/)
 
 hyunjunsoo@naver.com
 
-<img src="assets/footer.svg" alt="프로필 하단 장식" width="100%" />
+<img src="assets/footer.svg" alt="Profile footer decoration" width="100%" />
