@@ -103,7 +103,9 @@ Coursework completed at APU, separate from the individual final-year project abo
 | C++ email management, Java factory simulation, assembly blackjack, image processing, and Linux server setup | Coursework collection | [Browse coursework](https://github.com/Skullking2520/JunsooHyun_Portfolio) |
 | Game item marketplace and smart contracts | Blockchain course · Team project | [BCD](https://github.com/Skullking2520/BCD) |
 | Malaysian license plate recognition | Image Processing, Computer Vision and Pattern Recognition · Team project | Private repository |
-| Satellite–ground station communication simulation | Real-Time System · Team project | Private repository |
+| Satellite–ground station communication simulation | Real-Time System · My GCS component | [RTS](https://github.com/Skullking2520/RTS) |
+
+In IPPR, I shared preprocessing and plate detection with a teammate, developed the OCR code, and handled overall file configuration and report editing. GUI development, system integration, and experimental reporting were handled by teammates. RTS contains my Ground Control Station (GCS) part of the team simulation.
 
 </details>
 

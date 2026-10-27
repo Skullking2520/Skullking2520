@@ -21,3 +21,5 @@ Ownership of the encoder, decoder, data, API, and UI is documented in the [team 
 - [Data improvement records](https://github.com/Skullking2520/kdt-ai-2-team3-advanced/blob/main/after%20data%20augmentation/README.md)
 
 Evaluation considered both overall scores and the trade-off between false positives and false negatives under comparable data and input conditions. The retraining workflow was one component of the team service; experimental results are distinct from long-term operational outcomes.
+
+The private [Actions test repository](https://github.com/Skullking2520/kdt-ai-2-team4-advanced-actions-test) is a shared team workspace for automation checks. It is supporting project material and does not represent a separate individual product.
